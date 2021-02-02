@@ -96,7 +96,7 @@
           <div class="col-12 col-lg-2">
             <div class="row">
               <label
-                class="col-6 col-lg-6 input-style input-style-l checked way"
+                class="col-6 col-lg-6 input-style input-style-l checked way way-auto"
               >
                 <span>來回</span>
                 <input type="radio" name="return" class="form-control return" />
@@ -598,6 +598,10 @@
       });
 
       $(".form-auto").addClass("click");
+
+      $(".way-auto").prop("click");
+      $(".way-auto").addClass("radio");
+      $(".way-auto").find("span").addClass("radio");
 
       $(".way").on("click", function () {
         console.log("return");
