@@ -137,6 +137,10 @@ span#notice svg {
   align-items: center;
   height: 50px;
   margin-bottom: 15px;
+  -webkit-appearance: none !important;
+  -moz-appearance: none;
+  appearance: none;
+
 }
 .input-style.click {
   /* border: solid 1px #fd7947; */
@@ -167,6 +171,10 @@ input.form-control {
   width: 75%;
   font-size: 16px;
   padding: 6px 0px;
+  -webkit-appearance: none !important;
+  -moz-appearance: none;
+  appearance: none;
+}
 }
 select.form-control {
   border: 1px solid #fff;
