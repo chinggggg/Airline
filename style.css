@@ -5,6 +5,9 @@
   margin-bottom: 0;
   font-weight: 400;
 }
+body {
+  overflow-x: hidden;
+}
 .c-orange {
   background-color: #fd7947;
 }
