@@ -68,6 +68,12 @@ button:focus {
   font-style: 18px;
   padding: 0rem 1rem;
 }
+input,
+select {
+  -webkit-appearance: none !important;
+  -moz-appearance: none;
+  appearance: none;
+}
 a.nav-link {
   color: #fff;
 }
@@ -140,12 +146,14 @@ span#notice svg {
   -webkit-appearance: none !important;
   -moz-appearance: none;
   appearance: none;
-
 }
 .input-style.click {
   /* border: solid 1px #fd7947; */
   box-shadow: 0 0 0 1px #fd7947, 0px 1px 6px #eee;
   z-index: 10;
+  -webkit-appearance: none !important;
+  -moz-appearance: none;
+  appearance: none;
 }
 .input-style.radio {
   border: solid 1px #fd7947;
@@ -175,7 +183,7 @@ input.form-control {
   -moz-appearance: none;
   appearance: none;
 }
-}
+
 select.form-control {
   border: 1px solid #fff;
   width: 75%;
@@ -192,6 +200,9 @@ input.form-control:focus,
 select.form-control:focus {
   border-color: #fff;
   box-shadow: none;
+  -webkit-appearance: none !important;
+  -moz-appearance: none;
+  appearance: none;
 }
 label.input-style {
   position: relative;
